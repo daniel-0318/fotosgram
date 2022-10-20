@@ -5,6 +5,8 @@ import { PostComponent } from './post/post.component';
 import { IonicModule } from '@ionic/angular';
 import { PipesModule } from '../pipes/pipes.module';
 import { AvatarSelectorComponent } from './avatar-selector/avatar-selector.component';
+import { MapaComponent } from './mapa/mapa.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 
 
@@ -12,7 +14,8 @@ import { AvatarSelectorComponent } from './avatar-selector/avatar-selector.compo
   declarations: [
     PostsComponent,
     PostComponent,
-    AvatarSelectorComponent
+    AvatarSelectorComponent,
+    MapaComponent
   ],
   exports: [
     PostsComponent,
@@ -22,6 +25,7 @@ import { AvatarSelectorComponent } from './avatar-selector/avatar-selector.compo
     CommonModule,
     IonicModule,
     PipesModule
-  ]
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ComponentsModule { }
