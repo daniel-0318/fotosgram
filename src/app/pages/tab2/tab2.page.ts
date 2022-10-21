@@ -107,7 +107,7 @@ export class Tab2Page {
       const img = window.Ionic.WebView.convertFileSrc(imageData);
       console.log(img);
  
-      this.tempImages.push(img);
+      this.tempImages.push(imageData);
       
      }, (err) => {
       // Handle error

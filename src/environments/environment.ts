@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: 'http://192.168.1.2:3000',
+  url: 'http://localhost:3000',
   mapsKey: 'AIzaSyCD7DESte89_BdQPo-rrHoKRiv29UdPo_Q',
 };
 
